@@ -1,0 +1,17 @@
+.inf {
+  background-color: rgb(43, 43, 43);
+  height: auto;
+  padding: 10px;
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.inf p {
+  color: white;
+  margin-bottom: 10px;
+}
+.player {
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+}

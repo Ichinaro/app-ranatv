@@ -1,0 +1,15 @@
+.category {
+  display: grid;
+}
+.tittle-category {
+  margin-top: 20px;
+  display: flex;
+  border-bottom: 3px solid green;
+  padding: 10px 0 5px 0;
+  margin-bottom: 10px;
+}
+.tittle-category > a > h2 {
+  color: rgb(9, 77, 0);
+  font-size: 30px;
+  padding: 0 20px;
+}

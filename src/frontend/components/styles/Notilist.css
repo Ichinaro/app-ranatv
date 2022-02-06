@@ -1,0 +1,6 @@
+.noticia-item {
+  display: grid;
+  margin: 0 auto;
+  gap: 5px;
+  grid-template-rows: 200px auto;
+}

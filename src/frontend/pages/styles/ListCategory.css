@@ -1,0 +1,6 @@
+.category-noticias-container {
+  display: grid;
+  gap: 20px;
+  place-content: center;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}

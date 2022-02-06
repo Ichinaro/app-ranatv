@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+  list-style: none;
+  text-decoration: none;
+}
+body {
+  font-family: sans-serif;
+  font-weight: lighter;
+}
+
+.container {
+  display: grid;
+}
+.margen {
+  margin: 10px 20px;
+  gap: 10px;
+}

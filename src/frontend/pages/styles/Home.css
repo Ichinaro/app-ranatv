@@ -1,0 +1,18 @@
+.noticias-container {
+  display: grid;
+  gap: 20px;
+  place-content: center;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+@media all and (max-width: 900px) {
+  .noticias-container {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+}
+
+@media all and (max-width: 660px) {
+  .noticias-container {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+}

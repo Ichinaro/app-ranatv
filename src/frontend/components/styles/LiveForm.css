@@ -1,0 +1,43 @@
+.content {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+
+.content p {
+  color: rgb(255, 255, 255);
+  margin-bottom: 15px;
+}
+
+.titulo {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.form {
+  display: flex;
+  flex-flow: column;
+  align-items: flex-start;
+}
+
+.form button {
+  cursor: pointer;
+  margin: 10px 0;
+  height: 30px;
+  width: 80px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ffffffa6;
+  color: #00789c;
+  font-weight: bold;
+  font-size: 15px;
+  padding: 0;
+}
+
+.code {
+  height: 30px;
+  width: 600px;
+  padding: 0 10px;
+  border: 2px solid rgb(8, 125, 235);
+  border-radius: 5px;
+}

@@ -1,0 +1,23 @@
+.banner {
+  padding: 10px 10px 0 10px;
+  display: grid;
+  grid-template-rows: 200px;
+  place-items: center;
+  background-color: rgba(0, 197, 49, 0.836);
+  overflow: hidden;
+}
+.banner > img {
+  height: 100%;
+  object-fit: contain;
+}
+
+@media all and (max-width: 615px) {
+  .banner {
+    place-items: flex-end;
+    grid-template-rows: auto;
+  }
+  .banner > img {
+    height: auto;
+    width: 100%;
+  }
+}

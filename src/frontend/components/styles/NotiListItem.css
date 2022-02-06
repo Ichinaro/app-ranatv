@@ -1,0 +1,8 @@
+.noticia-img > img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.noticia-tittle {
+  font-size: 14px;
+}

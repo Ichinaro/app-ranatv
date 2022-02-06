@@ -1,0 +1,26 @@
+.pg-noticia {
+  display: grid;
+  grid-template-rows: auto auto 500px auto;
+  gap: 5px;
+}
+.pg-noticia-tittle {
+  font-size: 35px;
+}
+.pg-noticia-subtittle {
+  font-size: 25px;
+}
+.pg-noticia-img {
+  margin: 10px 0 20px 0;
+}
+.pg-noticia-img > img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.pg-noticia-descripcion {
+  white-space: pre-wrap;
+  font-family: sans-serif;
+  text-align: justify;
+  font-size: 20px;
+  margin-bottom: 30px;
+}
