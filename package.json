@@ -1,7 +1,7 @@
 {
   "name": "app-ranatv",
   "version": "1.0.0",
-  "description": "app informativa",
+  "description": "pwa informativa",
   "main": "src/server/index.js",
   "engines": {
     "node": "14.2.0"
