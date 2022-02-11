@@ -35,6 +35,7 @@ function Home(props){
         <Banner banner={banner} />
       </div>
       <div className="container margen">
+        <div><iframe src="https://zeno.fm/player/ranaradio" width="100%" height="100" frameBorder="0" scrolling="no"></iframe><a href="https://zeno.fm/" target="_blank" style={{display: 'block', fontSize: '0.9em', lineHeight: '10px'}}>A Zeno.FM Station</a></div>
         <Titular titulares={noticias} stream={stream} />
         <Reportaje noticias={noticias} />
       </div>

@@ -16,6 +16,17 @@ function Titular(props) {
     return (
       <div className="header">
         {stream.length ? 
+        <iframe src ='//www.opencaster.com/ranafranklin-100-100' width='100%' height='100%' frameBorder='0' scrolling="no" target="_blank" allowFullScreen="yes"></iframe>
+        : <div className="titular-item">
+            <Link to={`/noticia/${news._id}`} className="imagen-noticia">
+              <img src={news.url} alt=""/>
+            </Link>
+            <h2 className="titulo-noticia">
+              {news.titulo}
+            </h2>
+          </div>
+        }
+        {/*stream.length ? 
         <div className="player-home">
           <Player ancho='100%' alto='100%' url={stream[0].live} />
         </div>  :
@@ -26,7 +37,7 @@ function Titular(props) {
           <h2 className="titulo-noticia">
             {news.titulo}
           </h2>
-        </div> }
+        </div> */}
         <div className="publicidad-items">
           <div className="publicidad">
             <a href="https://www.facebook.com/PererosDent-103648597933382" >
